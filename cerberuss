@@ -1,5 +1,4 @@
 
-
 local Poisonx = {
 	Poisonx = Instance.new("ScreenGui"),
 	Cerberus = Instance.new("Frame"),
@@ -2259,7 +2258,7 @@ local function HXPCWUG_fake_script() -- Poisonx.TextButton_21.LocalScript
 	local script = Instance.new('LocalScript', Poisonx.TextButton_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Cop.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/itsthecops'))()
 	end)
 end
 coroutine.wrap(HXPCWUG_fake_script)()
