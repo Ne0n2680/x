@@ -2235,7 +2235,7 @@ local function DPLJ_fake_script() -- Poisonx.TextButton_18.LocalScript
 	local script = Instance.new('LocalScript', Poisonx.TextButton_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Flamethrower.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/flamethrower'))()
 	end)
 end
 coroutine.wrap(DPLJ_fake_script)()
