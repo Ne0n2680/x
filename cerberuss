@@ -1,3 +1,7 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local Poisonx = {
 	Poisonx = Instance.new("ScreenGui"),
@@ -153,17 +157,8 @@ local Poisonx = {
 	TextButton_44 = Instance.new("TextButton"),
 	UICorner_47 = Instance.new("UICorner"),
 	TextButton_45 = Instance.new("TextButton"),
-	ImageLabel_8 = Instance.new("ImageLabel"),
-	ImageLabel_9 = Instance.new("ImageLabel"),
-	ServerPage = Instance.new("Frame"),
-	Frame_9 = Instance.new("Frame"),
-	TextLabel_23 = Instance.new("TextLabel"),
-	TextLabel_24 = Instance.new("TextLabel"),
-	Frame_10 = Instance.new("Frame"),
-	TextButton_46 = Instance.new("TextButton"),
 	UICorner_48 = Instance.new("UICorner"),
-	TextLabel_25 = Instance.new("TextLabel"),
-	ServerMessage1_2 = Instance.new("TextBox"),
+	TextButton_46 = Instance.new("TextButton"),
 	UICorner_49 = Instance.new("UICorner"),
 	TextButton_47 = Instance.new("TextButton"),
 	UICorner_50 = Instance.new("UICorner"),
@@ -173,16 +168,41 @@ local Poisonx = {
 	UICorner_52 = Instance.new("UICorner"),
 	TextButton_50 = Instance.new("TextButton"),
 	UICorner_53 = Instance.new("UICorner"),
-	ServerMessage2_2 = Instance.new("TextBox"),
-	UICorner_54 = Instance.new("UICorner"),
 	TextButton_51 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	TextButton_52 = Instance.new("TextButton"),
 	UICorner_55 = Instance.new("UICorner"),
-	ServerMessage2_3 = Instance.new("TextBox"),
+	TextButton_53 = Instance.new("TextButton"),
+	ImageLabel_8 = Instance.new("ImageLabel"),
+	ImageLabel_9 = Instance.new("ImageLabel"),
+	ServerPage = Instance.new("Frame"),
+	Frame_9 = Instance.new("Frame"),
+	TextLabel_23 = Instance.new("TextLabel"),
+	TextLabel_24 = Instance.new("TextLabel"),
+	Frame_10 = Instance.new("Frame"),
+	TextButton_54 = Instance.new("TextButton"),
 	UICorner_56 = Instance.new("UICorner"),
+	TextLabel_25 = Instance.new("TextLabel"),
+	ServerMessage1_2 = Instance.new("TextBox"),
+	UICorner_57 = Instance.new("UICorner"),
+	TextButton_55 = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	TextButton_56 = Instance.new("TextButton"),
+	UICorner_59 = Instance.new("UICorner"),
+	TextButton_57 = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	TextButton_58 = Instance.new("TextButton"),
+	UICorner_61 = Instance.new("UICorner"),
+	ServerMessage2_2 = Instance.new("TextBox"),
+	UICorner_62 = Instance.new("UICorner"),
+	TextButton_59 = Instance.new("TextButton"),
+	UICorner_63 = Instance.new("UICorner"),
+	ServerMessage2_3 = Instance.new("TextBox"),
+	UICorner_64 = Instance.new("UICorner"),
 	Frame_11 = Instance.new("Frame"),
 	Frame_12 = Instance.new("Frame"),
-	TextButton_52 = Instance.new("TextButton"),
-	UICorner_57 = Instance.new("UICorner"),
+	TextButton_60 = Instance.new("TextButton"),
+	UICorner_65 = Instance.new("UICorner"),
 	DestructionPage = Instance.new("Frame"),
 	Frame_13 = Instance.new("Frame"),
 	TextLabel_26 = Instance.new("TextLabel"),
@@ -190,40 +210,14 @@ local Poisonx = {
 	TextLabel_28 = Instance.new("TextLabel"),
 	Frame_14 = Instance.new("Frame"),
 	TextLabel_29 = Instance.new("TextLabel"),
-	TextButton_53 = Instance.new("TextButton"),
-	UICorner_58 = Instance.new("UICorner"),
-	TextButton_54 = Instance.new("TextButton"),
-	UICorner_59 = Instance.new("UICorner"),
-	TextButton_55 = Instance.new("TextButton"),
-	UICorner_60 = Instance.new("UICorner"),
-	TextButton_56 = Instance.new("TextButton"),
-	UICorner_61 = Instance.new("UICorner"),
-	TextButton_57 = Instance.new("TextButton"),
-	UICorner_62 = Instance.new("UICorner"),
-	TextButton_58 = Instance.new("TextButton"),
-	UICorner_63 = Instance.new("UICorner"),
-	TextButton_59 = Instance.new("TextButton"),
-	UICorner_64 = Instance.new("UICorner"),
-	TextButton_60 = Instance.new("TextButton"),
-	UICorner_65 = Instance.new("UICorner"),
 	TextButton_61 = Instance.new("TextButton"),
 	UICorner_66 = Instance.new("UICorner"),
-	CmdPage = Instance.new("Frame"),
-	Frame_15 = Instance.new("Frame"),
-	TextLabel_30 = Instance.new("TextLabel"),
-	TextLabel_31 = Instance.new("TextLabel"),
-	Frame_16 = Instance.new("Frame"),
 	TextButton_62 = Instance.new("TextButton"),
 	UICorner_67 = Instance.new("UICorner"),
-	TextLabel_32 = Instance.new("TextLabel"),
 	TextButton_63 = Instance.new("TextButton"),
 	UICorner_68 = Instance.new("UICorner"),
 	TextButton_64 = Instance.new("TextButton"),
 	UICorner_69 = Instance.new("UICorner"),
-	TextLabel_33 = Instance.new("TextLabel"),
-	GearPage = Instance.new("Frame"),
-	TextLabel_34 = Instance.new("TextLabel"),
-	ScrollingFrame_2 = Instance.new("ScrollingFrame"),
 	TextButton_65 = Instance.new("TextButton"),
 	UICorner_70 = Instance.new("UICorner"),
 	TextButton_66 = Instance.new("TextButton"),
@@ -234,12 +228,38 @@ local Poisonx = {
 	UICorner_73 = Instance.new("UICorner"),
 	TextButton_69 = Instance.new("TextButton"),
 	UICorner_74 = Instance.new("UICorner"),
+	CmdPage = Instance.new("Frame"),
+	Frame_15 = Instance.new("Frame"),
+	TextLabel_30 = Instance.new("TextLabel"),
+	TextLabel_31 = Instance.new("TextLabel"),
+	Frame_16 = Instance.new("Frame"),
 	TextButton_70 = Instance.new("TextButton"),
 	UICorner_75 = Instance.new("UICorner"),
+	TextLabel_32 = Instance.new("TextLabel"),
 	TextButton_71 = Instance.new("TextButton"),
 	UICorner_76 = Instance.new("UICorner"),
 	TextButton_72 = Instance.new("TextButton"),
 	UICorner_77 = Instance.new("UICorner"),
+	TextLabel_33 = Instance.new("TextLabel"),
+	GearPage = Instance.new("Frame"),
+	TextLabel_34 = Instance.new("TextLabel"),
+	ScrollingFrame_2 = Instance.new("ScrollingFrame"),
+	TextButton_73 = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	TextButton_74 = Instance.new("TextButton"),
+	UICorner_79 = Instance.new("UICorner"),
+	TextButton_75 = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	TextButton_76 = Instance.new("TextButton"),
+	UICorner_81 = Instance.new("UICorner"),
+	TextButton_77 = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	TextButton_78 = Instance.new("TextButton"),
+	UICorner_83 = Instance.new("UICorner"),
+	TextButton_79 = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	TextButton_80 = Instance.new("TextButton"),
+	UICorner_85 = Instance.new("UICorner"),
 	TextLabel_35 = Instance.new("TextLabel"),
 	TextLabel_36 = Instance.new("TextLabel"),
 	Frame_17 = Instance.new("Frame"),
@@ -1111,7 +1131,7 @@ Poisonx.TextButton_22.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Poisonx.TextButton_22.Position = UDim2.new(0.0320000015, 0, 0.00646153884, 0)
 Poisonx.TextButton_22.Size = UDim2.new(0, 224, 0, 25)
 Poisonx.TextButton_22.Font = Enum.Font.SourceSans
-Poisonx.TextButton_22.Text = "Grab knife"
+Poisonx.TextButton_22.Text = "Grab kinfe"
 Poisonx.TextButton_22.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.TextButton_22.TextSize = 14.000
 
@@ -1122,7 +1142,7 @@ Poisonx.TextButton_23.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Poisonx.TextButton_23.Position = UDim2.new(0.0320000015, 0, 0.0106461532, 0)
 Poisonx.TextButton_23.Size = UDim2.new(0, 224, 0, 25)
 Poisonx.TextButton_23.Font = Enum.Font.SourceSans
-Poisonx.TextButton_23.Text = "Lost hope"
+Poisonx.TextButton_23.Text = "Dragon stand"
 Poisonx.TextButton_23.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.TextButton_23.TextSize = 14.000
 
@@ -1359,17 +1379,105 @@ Poisonx.TextButton_44.TextSize = 14.000
 
 Poisonx.UICorner_47.Parent = Poisonx.TextButton_44
 
-Poisonx.TextButton_45.Parent = Poisonx.Cerberus
-Poisonx.TextButton_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Poisonx.TextButton_45.BackgroundTransparency = 1.000
-Poisonx.TextButton_45.Position = UDim2.new(0.0295358654, 0, 0.490358144, 0)
-Poisonx.TextButton_45.Size = UDim2.new(0, 121, 0, 23)
+Poisonx.TextButton_45.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_45.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_45.Position = UDim2.new(0.0320000015, 0, 0.0657846257, 0)
+Poisonx.TextButton_45.Size = UDim2.new(0, 224, 0, 25)
 Poisonx.TextButton_45.Font = Enum.Font.SourceSans
-Poisonx.TextButton_45.Text = "Destruction"
-Poisonx.TextButton_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+Poisonx.TextButton_45.Text = "Minigun"
+Poisonx.TextButton_45.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.TextButton_45.TextSize = 14.000
 
-Poisonx.ImageLabel_8.Parent = Poisonx.TextButton_45
+Poisonx.UICorner_48.Parent = Poisonx.TextButton_45
+
+Poisonx.TextButton_46.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_46.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_46.Position = UDim2.new(0.0320000015, 0, 0.0679384694, 0)
+Poisonx.TextButton_46.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_46.Font = Enum.Font.SourceSans
+Poisonx.TextButton_46.Text = "Bolt action / sniper"
+Poisonx.TextButton_46.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_46.TextSize = 14.000
+
+Poisonx.UICorner_49.Parent = Poisonx.TextButton_46
+
+Poisonx.TextButton_47.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_47.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_47.Position = UDim2.new(0.0320000015, 0, 0.0700307712, 0)
+Poisonx.TextButton_47.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_47.Font = Enum.Font.SourceSans
+Poisonx.TextButton_47.Text = "Killer"
+Poisonx.TextButton_47.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_47.TextSize = 14.000
+
+Poisonx.UICorner_50.Parent = Poisonx.TextButton_47
+
+Poisonx.TextButton_48.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_48.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_48.Position = UDim2.new(0.0320000052, 0, 0.0723076984, 0)
+Poisonx.TextButton_48.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_48.Font = Enum.Font.SourceSans
+Poisonx.TextButton_48.Text = "Sharp shooter"
+Poisonx.TextButton_48.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_48.TextSize = 14.000
+
+Poisonx.UICorner_51.Parent = Poisonx.TextButton_48
+
+Poisonx.TextButton_49.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_49.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_49.Position = UDim2.new(0.0320000052, 0, 0.0745846182, 0)
+Poisonx.TextButton_49.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_49.Font = Enum.Font.SourceSans
+Poisonx.TextButton_49.Text = "Corrupted overseer"
+Poisonx.TextButton_49.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_49.TextSize = 14.000
+
+Poisonx.UICorner_52.Parent = Poisonx.TextButton_49
+
+Poisonx.TextButton_50.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_50.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_50.Position = UDim2.new(0.0320000052, 0, 0.0769230798, 0)
+Poisonx.TextButton_50.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_50.Font = Enum.Font.SourceSans
+Poisonx.TextButton_50.Text = "Noob switcher"
+Poisonx.TextButton_50.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_50.TextSize = 14.000
+
+Poisonx.UICorner_53.Parent = Poisonx.TextButton_50
+
+Poisonx.TextButton_51.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_51.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_51.Position = UDim2.new(0.0320000052, 0, 0.0792615414, 0)
+Poisonx.TextButton_51.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_51.Font = Enum.Font.SourceSans
+Poisonx.TextButton_51.Text = "Big daddy"
+Poisonx.TextButton_51.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_51.TextSize = 14.000
+
+Poisonx.UICorner_54.Parent = Poisonx.TextButton_51
+
+Poisonx.TextButton_52.Parent = Poisonx.ScrollingFrame
+Poisonx.TextButton_52.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_52.Position = UDim2.new(0.0320000052, 0, 0.0816000029, 0)
+Poisonx.TextButton_52.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_52.Font = Enum.Font.SourceSans
+Poisonx.TextButton_52.Text = "Chara"
+Poisonx.TextButton_52.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_52.TextSize = 14.000
+
+Poisonx.UICorner_55.Parent = Poisonx.TextButton_52
+
+Poisonx.TextButton_53.Parent = Poisonx.Cerberus
+Poisonx.TextButton_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Poisonx.TextButton_53.BackgroundTransparency = 1.000
+Poisonx.TextButton_53.Position = UDim2.new(0.0295358654, 0, 0.490358144, 0)
+Poisonx.TextButton_53.Size = UDim2.new(0, 121, 0, 23)
+Poisonx.TextButton_53.Font = Enum.Font.SourceSans
+Poisonx.TextButton_53.Text = "Destruction"
+Poisonx.TextButton_53.TextColor3 = Color3.fromRGB(255, 255, 255)
+Poisonx.TextButton_53.TextSize = 14.000
+
+Poisonx.ImageLabel_8.Parent = Poisonx.TextButton_53
 Poisonx.ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Poisonx.ImageLabel_8.BackgroundTransparency = 1.000
 Poisonx.ImageLabel_8.Position = UDim2.new(-0.0128256567, 0, 0.142856762, 0)
@@ -1377,7 +1485,7 @@ Poisonx.ImageLabel_8.Size = UDim2.new(0, 20, 0, 20)
 Poisonx.ImageLabel_8.Image = "http://www.roblox.com/asset/?id=4133453778"
 Poisonx.ImageLabel_8.ImageColor3 = Color3.fromRGB(0, 130, 195)
 
-Poisonx.ImageLabel_9.Parent = Poisonx.TextButton_45
+Poisonx.ImageLabel_9.Parent = Poisonx.TextButton_53
 Poisonx.ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Poisonx.ImageLabel_9.BackgroundTransparency = 1.000
 Poisonx.ImageLabel_9.Position = UDim2.new(-0.00456117652, 0, 1.14285672, 0)
@@ -1429,16 +1537,16 @@ Poisonx.Frame_10.BorderSizePixel = 0
 Poisonx.Frame_10.Position = UDim2.new(0.0443630889, 0, 0.913846135, 0)
 Poisonx.Frame_10.Size = UDim2.new(0, 264, 0, 1)
 
-Poisonx.TextButton_46.Parent = Poisonx.ServerPage
-Poisonx.TextButton_46.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_46.Position = UDim2.new(0.0413793065, 0, 0.175384581, 0)
-Poisonx.TextButton_46.Size = UDim2.new(0, 96, 0, 25)
-Poisonx.TextButton_46.Font = Enum.Font.SourceSans
-Poisonx.TextButton_46.Text = "Server message"
-Poisonx.TextButton_46.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_46.TextSize = 14.000
+Poisonx.TextButton_54.Parent = Poisonx.ServerPage
+Poisonx.TextButton_54.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_54.Position = UDim2.new(0.0413793065, 0, 0.175384581, 0)
+Poisonx.TextButton_54.Size = UDim2.new(0, 96, 0, 25)
+Poisonx.TextButton_54.Font = Enum.Font.SourceSans
+Poisonx.TextButton_54.Text = "Server message"
+Poisonx.TextButton_54.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_54.TextSize = 14.000
 
-Poisonx.UICorner_48.Parent = Poisonx.TextButton_46
+Poisonx.UICorner_56.Parent = Poisonx.TextButton_54
 
 Poisonx.TextLabel_25.Parent = Poisonx.ServerPage
 Poisonx.TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1464,51 +1572,51 @@ Poisonx.ServerMessage1_2.Text = ""
 Poisonx.ServerMessage1_2.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.ServerMessage1_2.TextSize = 14.000
 
-Poisonx.UICorner_49.Parent = Poisonx.ServerMessage1_2
+Poisonx.UICorner_57.Parent = Poisonx.ServerMessage1_2
 
-Poisonx.TextButton_47.Parent = Poisonx.ServerPage
-Poisonx.TextButton_47.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_47.Position = UDim2.new(0.0413793102, 0, 0.279999942, 0)
-Poisonx.TextButton_47.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_47.Font = Enum.Font.SourceSans
-Poisonx.TextButton_47.Text = "Warn all"
-Poisonx.TextButton_47.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_47.TextSize = 14.000
+Poisonx.TextButton_55.Parent = Poisonx.ServerPage
+Poisonx.TextButton_55.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_55.Position = UDim2.new(0.0413793102, 0, 0.279999942, 0)
+Poisonx.TextButton_55.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_55.Font = Enum.Font.SourceSans
+Poisonx.TextButton_55.Text = "Warn all"
+Poisonx.TextButton_55.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_55.TextSize = 14.000
 
-Poisonx.UICorner_50.Parent = Poisonx.TextButton_47
+Poisonx.UICorner_58.Parent = Poisonx.TextButton_55
 
-Poisonx.TextButton_48.Parent = Poisonx.ServerPage
-Poisonx.TextButton_48.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_48.Position = UDim2.new(0.365517229, 0, 0.279999942, 0)
-Poisonx.TextButton_48.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_48.Font = Enum.Font.SourceSans
-Poisonx.TextButton_48.Text = "Hello all"
-Poisonx.TextButton_48.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_48.TextSize = 14.000
+Poisonx.TextButton_56.Parent = Poisonx.ServerPage
+Poisonx.TextButton_56.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_56.Position = UDim2.new(0.365517229, 0, 0.279999942, 0)
+Poisonx.TextButton_56.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_56.Font = Enum.Font.SourceSans
+Poisonx.TextButton_56.Text = "Hello all"
+Poisonx.TextButton_56.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_56.TextSize = 14.000
 
-Poisonx.UICorner_51.Parent = Poisonx.TextButton_48
+Poisonx.UICorner_59.Parent = Poisonx.TextButton_56
 
-Poisonx.TextButton_49.Parent = Poisonx.ServerPage
-Poisonx.TextButton_49.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_49.Position = UDim2.new(0.665517211, 0, 0.283076853, 0)
-Poisonx.TextButton_49.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_49.Font = Enum.Font.SourceSans
-Poisonx.TextButton_49.Text = "Admin all"
-Poisonx.TextButton_49.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_49.TextSize = 14.000
+Poisonx.TextButton_57.Parent = Poisonx.ServerPage
+Poisonx.TextButton_57.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_57.Position = UDim2.new(0.665517211, 0, 0.283076853, 0)
+Poisonx.TextButton_57.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_57.Font = Enum.Font.SourceSans
+Poisonx.TextButton_57.Text = "Admin all"
+Poisonx.TextButton_57.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_57.TextSize = 14.000
 
-Poisonx.UICorner_52.Parent = Poisonx.TextButton_49
+Poisonx.UICorner_60.Parent = Poisonx.TextButton_57
 
-Poisonx.TextButton_50.Parent = Poisonx.ServerPage
-Poisonx.TextButton_50.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_50.Position = UDim2.new(0.0344827548, 0, 0.778461516, 0)
-Poisonx.TextButton_50.Size = UDim2.new(0, 96, 0, 25)
-Poisonx.TextButton_50.Font = Enum.Font.SourceSans
-Poisonx.TextButton_50.Text = "Set admin"
-Poisonx.TextButton_50.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_50.TextSize = 14.000
+Poisonx.TextButton_58.Parent = Poisonx.ServerPage
+Poisonx.TextButton_58.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_58.Position = UDim2.new(0.0344827548, 0, 0.778461516, 0)
+Poisonx.TextButton_58.Size = UDim2.new(0, 96, 0, 25)
+Poisonx.TextButton_58.Font = Enum.Font.SourceSans
+Poisonx.TextButton_58.Text = "Set admin"
+Poisonx.TextButton_58.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_58.TextSize = 14.000
 
-Poisonx.UICorner_53.Parent = Poisonx.TextButton_50
+Poisonx.UICorner_61.Parent = Poisonx.TextButton_58
 
 Poisonx.ServerMessage2_2.Name = "ServerMessage2"
 Poisonx.ServerMessage2_2.Parent = Poisonx.ServerPage
@@ -1522,18 +1630,18 @@ Poisonx.ServerMessage2_2.Text = ""
 Poisonx.ServerMessage2_2.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.ServerMessage2_2.TextSize = 14.000
 
-Poisonx.UICorner_54.Parent = Poisonx.ServerMessage2_2
+Poisonx.UICorner_62.Parent = Poisonx.ServerMessage2_2
 
-Poisonx.TextButton_51.Parent = Poisonx.ServerPage
-Poisonx.TextButton_51.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_51.Position = UDim2.new(0.0344827548, 0, 0.633846164, 0)
-Poisonx.TextButton_51.Size = UDim2.new(0, 96, 0, 25)
-Poisonx.TextButton_51.Font = Enum.Font.SourceSans
-Poisonx.TextButton_51.Text = "Remove admin"
-Poisonx.TextButton_51.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_51.TextSize = 14.000
+Poisonx.TextButton_59.Parent = Poisonx.ServerPage
+Poisonx.TextButton_59.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_59.Position = UDim2.new(0.0344827548, 0, 0.633846164, 0)
+Poisonx.TextButton_59.Size = UDim2.new(0, 96, 0, 25)
+Poisonx.TextButton_59.Font = Enum.Font.SourceSans
+Poisonx.TextButton_59.Text = "Remove admin"
+Poisonx.TextButton_59.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_59.TextSize = 14.000
 
-Poisonx.UICorner_55.Parent = Poisonx.TextButton_51
+Poisonx.UICorner_63.Parent = Poisonx.TextButton_59
 
 Poisonx.ServerMessage2_3.Name = "ServerMessage2"
 Poisonx.ServerMessage2_3.Parent = Poisonx.ServerPage
@@ -1547,7 +1655,7 @@ Poisonx.ServerMessage2_3.Text = ""
 Poisonx.ServerMessage2_3.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.ServerMessage2_3.TextSize = 14.000
 
-Poisonx.UICorner_56.Parent = Poisonx.ServerMessage2_3
+Poisonx.UICorner_64.Parent = Poisonx.ServerMessage2_3
 
 Poisonx.Frame_11.Parent = Poisonx.ServerPage
 Poisonx.Frame_11.BackgroundColor3 = Color3.fromRGB(0, 130, 195)
@@ -1561,16 +1669,16 @@ Poisonx.Frame_12.BorderSizePixel = 0
 Poisonx.Frame_12.Position = UDim2.new(0.0443630889, 0, 0.575384617, 0)
 Poisonx.Frame_12.Size = UDim2.new(0, 264, 0, 1)
 
-Poisonx.TextButton_52.Parent = Poisonx.ServerPage
-Poisonx.TextButton_52.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_52.Position = UDim2.new(0.0413793102, 0, 0.461538464, 0)
-Poisonx.TextButton_52.Size = UDim2.new(0, 263, 0, 25)
-Poisonx.TextButton_52.Font = Enum.Font.SourceSans
-Poisonx.TextButton_52.Text = "Join us!"
-Poisonx.TextButton_52.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_52.TextSize = 14.000
+Poisonx.TextButton_60.Parent = Poisonx.ServerPage
+Poisonx.TextButton_60.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_60.Position = UDim2.new(0.0413793102, 0, 0.461538464, 0)
+Poisonx.TextButton_60.Size = UDim2.new(0, 263, 0, 25)
+Poisonx.TextButton_60.Font = Enum.Font.SourceSans
+Poisonx.TextButton_60.Text = "Join us!"
+Poisonx.TextButton_60.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_60.TextSize = 14.000
 
-Poisonx.UICorner_57.Parent = Poisonx.TextButton_52
+Poisonx.UICorner_65.Parent = Poisonx.TextButton_60
 
 Poisonx.DestructionPage.Name = "DestructionPage"
 Poisonx.DestructionPage.Parent = Poisonx.Cerberus
@@ -1640,104 +1748,104 @@ Poisonx.TextLabel_29.TextScaled = true
 Poisonx.TextLabel_29.TextSize = 14.000
 Poisonx.TextLabel_29.TextWrapped = true
 
-Poisonx.TextButton_53.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_53.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_53.Position = UDim2.new(0.686206818, 0, 0.286153793, 0)
-Poisonx.TextButton_53.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_53.Font = Enum.Font.SourceSans
-Poisonx.TextButton_53.Text = "Death star"
-Poisonx.TextButton_53.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_53.TextSize = 14.000
-
-Poisonx.UICorner_58.Parent = Poisonx.TextButton_53
-
-Poisonx.TextButton_54.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_54.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_54.Position = UDim2.new(0.686206818, 0, 0.415384531, 0)
-Poisonx.TextButton_54.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_54.Font = Enum.Font.SourceSans
-Poisonx.TextButton_54.Text = "Music"
-Poisonx.TextButton_54.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_54.TextSize = 14.000
-
-Poisonx.UICorner_59.Parent = Poisonx.TextButton_54
-
-Poisonx.TextButton_55.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_55.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_55.Position = UDim2.new(0.368965477, 0, 0.286153793, 0)
-Poisonx.TextButton_55.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_55.Font = Enum.Font.SourceSans
-Poisonx.TextButton_55.Text = "Text parts"
-Poisonx.TextButton_55.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_55.TextSize = 14.000
-
-Poisonx.UICorner_60.Parent = Poisonx.TextButton_55
-
-Poisonx.TextButton_56.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_56.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_56.Position = UDim2.new(0.0413792729, 0, 0.163076878, 0)
-Poisonx.TextButton_56.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_56.Font = Enum.Font.SourceSans
-Poisonx.TextButton_56.Text = "Sky change"
-Poisonx.TextButton_56.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_56.TextSize = 14.000
-
-Poisonx.UICorner_61.Parent = Poisonx.TextButton_56
-
-Poisonx.TextButton_57.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_57.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_57.Position = UDim2.new(0.686206877, 0, 0.166153803, 0)
-Poisonx.TextButton_57.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_57.Font = Enum.Font.SourceSans
-Poisonx.TextButton_57.Text = "Decal spam"
-Poisonx.TextButton_57.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_57.TextSize = 14.000
-
-Poisonx.UICorner_62.Parent = Poisonx.TextButton_57
-
-Poisonx.TextButton_58.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_58.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_58.Position = UDim2.new(0.365517229, 0, 0.166153803, 0)
-Poisonx.TextButton_58.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_58.Font = Enum.Font.SourceSans
-Poisonx.TextButton_58.Text = "Mute chat"
-Poisonx.TextButton_58.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_58.TextSize = 14.000
-
-Poisonx.UICorner_63.Parent = Poisonx.TextButton_58
-
-Poisonx.TextButton_59.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_59.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_59.Position = UDim2.new(0.0413792133, 0, 0.286153793, 0)
-Poisonx.TextButton_59.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_59.Font = Enum.Font.SourceSans
-Poisonx.TextButton_59.Text = "Fire all"
-Poisonx.TextButton_59.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_59.TextSize = 14.000
-
-Poisonx.UICorner_64.Parent = Poisonx.TextButton_59
-
-Poisonx.TextButton_60.Parent = Poisonx.DestructionPage
-Poisonx.TextButton_60.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_60.Position = UDim2.new(0.0413792133, 0, 0.409230709, 0)
-Poisonx.TextButton_60.Size = UDim2.new(0, 77, 0, 25)
-Poisonx.TextButton_60.Font = Enum.Font.SourceSans
-Poisonx.TextButton_60.Text = "Ambience"
-Poisonx.TextButton_60.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_60.TextSize = 14.000
-
-Poisonx.UICorner_65.Parent = Poisonx.TextButton_60
-
 Poisonx.TextButton_61.Parent = Poisonx.DestructionPage
 Poisonx.TextButton_61.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_61.Position = UDim2.new(0.368965417, 0, 0.409230709, 0)
+Poisonx.TextButton_61.Position = UDim2.new(0.686206818, 0, 0.286153793, 0)
 Poisonx.TextButton_61.Size = UDim2.new(0, 77, 0, 25)
 Poisonx.TextButton_61.Font = Enum.Font.SourceSans
-Poisonx.TextButton_61.Text = "Purge"
+Poisonx.TextButton_61.Text = "Death star"
 Poisonx.TextButton_61.TextColor3 = Color3.fromRGB(0, 130, 195)
 Poisonx.TextButton_61.TextSize = 14.000
 
 Poisonx.UICorner_66.Parent = Poisonx.TextButton_61
+
+Poisonx.TextButton_62.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_62.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_62.Position = UDim2.new(0.686206818, 0, 0.415384531, 0)
+Poisonx.TextButton_62.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_62.Font = Enum.Font.SourceSans
+Poisonx.TextButton_62.Text = "Music"
+Poisonx.TextButton_62.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_62.TextSize = 14.000
+
+Poisonx.UICorner_67.Parent = Poisonx.TextButton_62
+
+Poisonx.TextButton_63.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_63.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_63.Position = UDim2.new(0.368965477, 0, 0.286153793, 0)
+Poisonx.TextButton_63.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_63.Font = Enum.Font.SourceSans
+Poisonx.TextButton_63.Text = "Text parts"
+Poisonx.TextButton_63.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_63.TextSize = 14.000
+
+Poisonx.UICorner_68.Parent = Poisonx.TextButton_63
+
+Poisonx.TextButton_64.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_64.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_64.Position = UDim2.new(0.0413792729, 0, 0.163076878, 0)
+Poisonx.TextButton_64.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_64.Font = Enum.Font.SourceSans
+Poisonx.TextButton_64.Text = "Sky change"
+Poisonx.TextButton_64.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_64.TextSize = 14.000
+
+Poisonx.UICorner_69.Parent = Poisonx.TextButton_64
+
+Poisonx.TextButton_65.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_65.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_65.Position = UDim2.new(0.686206877, 0, 0.166153803, 0)
+Poisonx.TextButton_65.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_65.Font = Enum.Font.SourceSans
+Poisonx.TextButton_65.Text = "Decal spam"
+Poisonx.TextButton_65.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_65.TextSize = 14.000
+
+Poisonx.UICorner_70.Parent = Poisonx.TextButton_65
+
+Poisonx.TextButton_66.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_66.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_66.Position = UDim2.new(0.365517229, 0, 0.166153803, 0)
+Poisonx.TextButton_66.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_66.Font = Enum.Font.SourceSans
+Poisonx.TextButton_66.Text = "Mute chat"
+Poisonx.TextButton_66.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_66.TextSize = 14.000
+
+Poisonx.UICorner_71.Parent = Poisonx.TextButton_66
+
+Poisonx.TextButton_67.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_67.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_67.Position = UDim2.new(0.0413792133, 0, 0.286153793, 0)
+Poisonx.TextButton_67.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_67.Font = Enum.Font.SourceSans
+Poisonx.TextButton_67.Text = "Fire all"
+Poisonx.TextButton_67.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_67.TextSize = 14.000
+
+Poisonx.UICorner_72.Parent = Poisonx.TextButton_67
+
+Poisonx.TextButton_68.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_68.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_68.Position = UDim2.new(0.0413792133, 0, 0.409230709, 0)
+Poisonx.TextButton_68.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_68.Font = Enum.Font.SourceSans
+Poisonx.TextButton_68.Text = "Ambience"
+Poisonx.TextButton_68.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_68.TextSize = 14.000
+
+Poisonx.UICorner_73.Parent = Poisonx.TextButton_68
+
+Poisonx.TextButton_69.Parent = Poisonx.DestructionPage
+Poisonx.TextButton_69.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_69.Position = UDim2.new(0.368965417, 0, 0.409230709, 0)
+Poisonx.TextButton_69.Size = UDim2.new(0, 77, 0, 25)
+Poisonx.TextButton_69.Font = Enum.Font.SourceSans
+Poisonx.TextButton_69.Text = "Purge"
+Poisonx.TextButton_69.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_69.TextSize = 14.000
+
+Poisonx.UICorner_74.Parent = Poisonx.TextButton_69
 
 Poisonx.CmdPage.Name = "CmdPage"
 Poisonx.CmdPage.Parent = Poisonx.Cerberus
@@ -1783,16 +1891,16 @@ Poisonx.Frame_16.BorderSizePixel = 0
 Poisonx.Frame_16.Position = UDim2.new(0.0443630889, 0, 0.913846135, 0)
 Poisonx.Frame_16.Size = UDim2.new(0, 264, 0, 1)
 
-Poisonx.TextButton_62.Parent = Poisonx.CmdPage
-Poisonx.TextButton_62.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_62.Position = UDim2.new(0.0413793102, 0, 0.17230764, 0)
-Poisonx.TextButton_62.Size = UDim2.new(0, 264, 0, 25)
-Poisonx.TextButton_62.Font = Enum.Font.SourceSans
-Poisonx.TextButton_62.Text = "Fates admin"
-Poisonx.TextButton_62.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_62.TextSize = 14.000
+Poisonx.TextButton_70.Parent = Poisonx.CmdPage
+Poisonx.TextButton_70.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_70.Position = UDim2.new(0.0413793102, 0, 0.17230764, 0)
+Poisonx.TextButton_70.Size = UDim2.new(0, 264, 0, 25)
+Poisonx.TextButton_70.Font = Enum.Font.SourceSans
+Poisonx.TextButton_70.Text = "Fates admin"
+Poisonx.TextButton_70.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_70.TextSize = 14.000
 
-Poisonx.UICorner_67.Parent = Poisonx.TextButton_62
+Poisonx.UICorner_75.Parent = Poisonx.TextButton_70
 
 Poisonx.TextLabel_32.Parent = Poisonx.CmdPage
 Poisonx.TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1806,27 +1914,27 @@ Poisonx.TextLabel_32.TextScaled = true
 Poisonx.TextLabel_32.TextSize = 14.000
 Poisonx.TextLabel_32.TextWrapped = true
 
-Poisonx.TextButton_63.Parent = Poisonx.CmdPage
-Poisonx.TextButton_63.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_63.Position = UDim2.new(0.0413793102, 0, 0.286153853, 0)
-Poisonx.TextButton_63.Size = UDim2.new(0, 263, 0, 25)
-Poisonx.TextButton_63.Font = Enum.Font.SourceSans
-Poisonx.TextButton_63.Text = "Infinite Yield"
-Poisonx.TextButton_63.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_63.TextSize = 14.000
+Poisonx.TextButton_71.Parent = Poisonx.CmdPage
+Poisonx.TextButton_71.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_71.Position = UDim2.new(0.0413793102, 0, 0.286153853, 0)
+Poisonx.TextButton_71.Size = UDim2.new(0, 263, 0, 25)
+Poisonx.TextButton_71.Font = Enum.Font.SourceSans
+Poisonx.TextButton_71.Text = "Infinite Yield"
+Poisonx.TextButton_71.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_71.TextSize = 14.000
 
-Poisonx.UICorner_68.Parent = Poisonx.TextButton_63
+Poisonx.UICorner_76.Parent = Poisonx.TextButton_71
 
-Poisonx.TextButton_64.Parent = Poisonx.CmdPage
-Poisonx.TextButton_64.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_64.Position = UDim2.new(0.0413793102, 0, 0.41230768, 0)
-Poisonx.TextButton_64.Size = UDim2.new(0, 263, 0, 25)
-Poisonx.TextButton_64.Font = Enum.Font.SourceSans
-Poisonx.TextButton_64.Text = "Shattervast"
-Poisonx.TextButton_64.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_64.TextSize = 14.000
+Poisonx.TextButton_72.Parent = Poisonx.CmdPage
+Poisonx.TextButton_72.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_72.Position = UDim2.new(0.0413793102, 0, 0.41230768, 0)
+Poisonx.TextButton_72.Size = UDim2.new(0, 263, 0, 25)
+Poisonx.TextButton_72.Font = Enum.Font.SourceSans
+Poisonx.TextButton_72.Text = "Shattervast"
+Poisonx.TextButton_72.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_72.TextSize = 14.000
 
-Poisonx.UICorner_69.Parent = Poisonx.TextButton_64
+Poisonx.UICorner_77.Parent = Poisonx.TextButton_72
 
 Poisonx.TextLabel_33.Parent = Poisonx.CmdPage
 Poisonx.TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1870,93 +1978,93 @@ Poisonx.ScrollingFrame_2.Visible = false
 Poisonx.ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 50, 0)
 Poisonx.ScrollingFrame_2.ScrollBarThickness = 5
 
-Poisonx.TextButton_65.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_65.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_65.Position = UDim2.new(0.0398740172, 0, 0.0153230745, 0)
-Poisonx.TextButton_65.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_65.Font = Enum.Font.SourceSans
-Poisonx.TextButton_65.Text = "Murder knife"
-Poisonx.TextButton_65.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_65.TextSize = 14.000
+Poisonx.TextButton_73.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_73.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_73.Position = UDim2.new(0.0398740172, 0, 0.0153230745, 0)
+Poisonx.TextButton_73.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_73.Font = Enum.Font.SourceSans
+Poisonx.TextButton_73.Text = "Murder knife"
+Poisonx.TextButton_73.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_73.TextSize = 14.000
 
-Poisonx.UICorner_70.Parent = Poisonx.TextButton_65
+Poisonx.UICorner_78.Parent = Poisonx.TextButton_73
 
-Poisonx.TextButton_66.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_66.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_66.Position = UDim2.new(0.0398740172, 0, 0.0132923052, 0)
-Poisonx.TextButton_66.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_66.Font = Enum.Font.SourceSans
-Poisonx.TextButton_66.Text = "Gravity gun"
-Poisonx.TextButton_66.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_66.TextSize = 14.000
+Poisonx.TextButton_74.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_74.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_74.Position = UDim2.new(0.0398740172, 0, 0.0132923052, 0)
+Poisonx.TextButton_74.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_74.Font = Enum.Font.SourceSans
+Poisonx.TextButton_74.Text = "Gravity gun"
+Poisonx.TextButton_74.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_74.TextSize = 14.000
 
-Poisonx.UICorner_71.Parent = Poisonx.TextButton_66
+Poisonx.UICorner_79.Parent = Poisonx.TextButton_74
 
-Poisonx.TextButton_67.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_67.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_67.Position = UDim2.new(0.0398740172, 0, 0.0111999987, 0)
-Poisonx.TextButton_67.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_67.Font = Enum.Font.SourceSans
-Poisonx.TextButton_67.Text = "Shotgun"
-Poisonx.TextButton_67.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_67.TextSize = 14.000
+Poisonx.TextButton_75.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_75.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_75.Position = UDim2.new(0.0398740172, 0, 0.0111999987, 0)
+Poisonx.TextButton_75.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_75.Font = Enum.Font.SourceSans
+Poisonx.TextButton_75.Text = "Shotgun"
+Poisonx.TextButton_75.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_75.TextSize = 14.000
 
-Poisonx.UICorner_72.Parent = Poisonx.TextButton_67
+Poisonx.UICorner_80.Parent = Poisonx.TextButton_75
 
-Poisonx.TextButton_68.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_68.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_68.Position = UDim2.new(0.0398740172, 0, 0.00892307702, 0)
-Poisonx.TextButton_68.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_68.Font = Enum.Font.SourceSans
-Poisonx.TextButton_68.Text = "Double shotguns"
-Poisonx.TextButton_68.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_68.TextSize = 14.000
+Poisonx.TextButton_76.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_76.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_76.Position = UDim2.new(0.0398740172, 0, 0.00892307702, 0)
+Poisonx.TextButton_76.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_76.Font = Enum.Font.SourceSans
+Poisonx.TextButton_76.Text = "Double shotguns"
+Poisonx.TextButton_76.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_76.TextSize = 14.000
 
-Poisonx.UICorner_73.Parent = Poisonx.TextButton_68
+Poisonx.UICorner_81.Parent = Poisonx.TextButton_76
 
-Poisonx.TextButton_69.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_69.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_69.Position = UDim2.new(0.0398740172, 0, 0.00676923105, 0)
-Poisonx.TextButton_69.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_69.Font = Enum.Font.SourceSans
-Poisonx.TextButton_69.Text = "Revolver"
-Poisonx.TextButton_69.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_69.TextSize = 14.000
+Poisonx.TextButton_77.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_77.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_77.Position = UDim2.new(0.0398740172, 0, 0.00676923105, 0)
+Poisonx.TextButton_77.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_77.Font = Enum.Font.SourceSans
+Poisonx.TextButton_77.Text = "Revolver"
+Poisonx.TextButton_77.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_77.TextSize = 14.000
 
-Poisonx.UICorner_74.Parent = Poisonx.TextButton_69
+Poisonx.UICorner_82.Parent = Poisonx.TextButton_77
 
-Poisonx.TextButton_70.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_70.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_70.Position = UDim2.new(0.0398740172, 0, 0.00455384655, 0)
-Poisonx.TextButton_70.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_70.Font = Enum.Font.SourceSans
-Poisonx.TextButton_70.Text = "Ak-47"
-Poisonx.TextButton_70.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_70.TextSize = 14.000
+Poisonx.TextButton_78.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_78.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_78.Position = UDim2.new(0.0398740172, 0, 0.00455384655, 0)
+Poisonx.TextButton_78.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_78.Font = Enum.Font.SourceSans
+Poisonx.TextButton_78.Text = "Ak-47"
+Poisonx.TextButton_78.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_78.TextSize = 14.000
 
-Poisonx.UICorner_75.Parent = Poisonx.TextButton_70
+Poisonx.UICorner_83.Parent = Poisonx.TextButton_78
 
-Poisonx.TextButton_71.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_71.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_71.Position = UDim2.new(0.0320000015, 0, 0.00240000035, 0)
-Poisonx.TextButton_71.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_71.Font = Enum.Font.SourceSans
-Poisonx.TextButton_71.Text = "M14"
-Poisonx.TextButton_71.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_71.TextSize = 14.000
+Poisonx.TextButton_79.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_79.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_79.Position = UDim2.new(0.0320000015, 0, 0.00240000035, 0)
+Poisonx.TextButton_79.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_79.Font = Enum.Font.SourceSans
+Poisonx.TextButton_79.Text = "M14"
+Poisonx.TextButton_79.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_79.TextSize = 14.000
 
-Poisonx.UICorner_76.Parent = Poisonx.TextButton_71
+Poisonx.UICorner_84.Parent = Poisonx.TextButton_79
 
-Poisonx.TextButton_72.Parent = Poisonx.ScrollingFrame_2
-Poisonx.TextButton_72.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-Poisonx.TextButton_72.Position = UDim2.new(0.0320000015, 0, 0.000246154377, 0)
-Poisonx.TextButton_72.Size = UDim2.new(0, 224, 0, 25)
-Poisonx.TextButton_72.Font = Enum.Font.SourceSans
-Poisonx.TextButton_72.Text = "Btools"
-Poisonx.TextButton_72.TextColor3 = Color3.fromRGB(0, 130, 195)
-Poisonx.TextButton_72.TextSize = 14.000
+Poisonx.TextButton_80.Parent = Poisonx.ScrollingFrame_2
+Poisonx.TextButton_80.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Poisonx.TextButton_80.Position = UDim2.new(0.0320000015, 0, 0.000246154377, 0)
+Poisonx.TextButton_80.Size = UDim2.new(0, 224, 0, 25)
+Poisonx.TextButton_80.Font = Enum.Font.SourceSans
+Poisonx.TextButton_80.Text = "Btools"
+Poisonx.TextButton_80.TextColor3 = Color3.fromRGB(0, 130, 195)
+Poisonx.TextButton_80.TextSize = 14.000
 
-Poisonx.UICorner_77.Parent = Poisonx.TextButton_72
+Poisonx.UICorner_85.Parent = Poisonx.TextButton_80
 
 Poisonx.TextLabel_35.Parent = Poisonx.GearPage
 Poisonx.TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1990,7 +2098,7 @@ Poisonx.Frame_17.Size = UDim2.new(0, 264, 0, 1)
 
 -- Scripts:
 
-local function CYVWY_fake_script() -- Poisonx.TextButton.LocalScript 
+local function GRMOM_fake_script() -- Poisonx.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2004,8 +2112,8 @@ local function CYVWY_fake_script() -- Poisonx.TextButton.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(CYVWY_fake_script)()
-local function IXYHNNP_fake_script() -- Poisonx.TextButton_2.LocalScript 
+coroutine.wrap(GRMOM_fake_script)()
+local function YPCE_fake_script() -- Poisonx.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2019,8 +2127,8 @@ local function IXYHNNP_fake_script() -- Poisonx.TextButton_2.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(IXYHNNP_fake_script)()
-local function ABMNWCC_fake_script() -- Poisonx.TextButton_3.LocalScript 
+coroutine.wrap(YPCE_fake_script)()
+local function YYLGQET_fake_script() -- Poisonx.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2034,16 +2142,16 @@ local function ABMNWCC_fake_script() -- Poisonx.TextButton_3.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(ABMNWCC_fake_script)()
-local function TRGH_fake_script() -- Poisonx.TextButton_4.LocalScript 
+coroutine.wrap(YYLGQET_fake_script)()
+local function CVKPB_fake_script() -- Poisonx.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.UINAME.Text = script.Parent.Parent.NameBox.Text
 	end)
 end
-coroutine.wrap(TRGH_fake_script)()
-local function OUAPVT_fake_script() -- Poisonx.Swithoff.LocalScript 
+coroutine.wrap(CVKPB_fake_script)()
+local function LGZI_fake_script() -- Poisonx.Swithoff.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithoff)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2052,8 +2160,8 @@ local function OUAPVT_fake_script() -- Poisonx.Swithoff.LocalScript
 		script.Parent.Parent.Parent.Parent.USERNAME.Text = "Name hidden."
 	end)
 end
-coroutine.wrap(OUAPVT_fake_script)()
-local function UZZV_fake_script() -- Poisonx.Swithon.LocalScript 
+coroutine.wrap(LGZI_fake_script)()
+local function UIGLTXL_fake_script() -- Poisonx.Swithon.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithon)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2065,8 +2173,8 @@ local function UZZV_fake_script() -- Poisonx.Swithon.LocalScript
 		script.Parent.Parent.Parent.Parent.USERNAME.Text = currentPlayer
 	end)
 end
-coroutine.wrap(UZZV_fake_script)()
-local function ESUXVYE_fake_script() -- Poisonx.Swithoff_2.LocalScript 
+coroutine.wrap(UIGLTXL_fake_script)()
+local function SRNGH_fake_script() -- Poisonx.Swithoff_2.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithoff_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2075,8 +2183,8 @@ local function ESUXVYE_fake_script() -- Poisonx.Swithoff_2.LocalScript
 		script.Parent.Parent.Parent.Parent.ExecutorPage.OptionHideCode.Visible = true
 	end)
 end
-coroutine.wrap(ESUXVYE_fake_script)()
-local function SSWDWR_fake_script() -- Poisonx.Swithon_2.LocalScript 
+coroutine.wrap(SRNGH_fake_script)()
+local function LHOHQJ_fake_script() -- Poisonx.Swithon_2.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithon_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2085,8 +2193,8 @@ local function SSWDWR_fake_script() -- Poisonx.Swithon_2.LocalScript
 		script.Parent.Parent.Parent.Parent.ExecutorPage.OptionHideCode.Visible = false
 	end)
 end
-coroutine.wrap(SSWDWR_fake_script)()
-local function BSCW_fake_script() -- Poisonx.Swithoff_3.LocalScript 
+coroutine.wrap(LHOHQJ_fake_script)()
+local function OHMENR_fake_script() -- Poisonx.Swithoff_3.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithoff_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2094,8 +2202,8 @@ local function BSCW_fake_script() -- Poisonx.Swithoff_3.LocalScript
 		script.Parent.Parent.Swithon.Visible = true
 	end)
 end
-coroutine.wrap(BSCW_fake_script)()
-local function MYGR_fake_script() -- Poisonx.Swithon_3.LocalScript 
+coroutine.wrap(OHMENR_fake_script)()
+local function RGHBFYA_fake_script() -- Poisonx.Swithon_3.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Swithon_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2103,16 +2211,16 @@ local function MYGR_fake_script() -- Poisonx.Swithon_3.LocalScript
 		script.Parent.Parent.Swithoff.Visible = true
 	end)
 end
-coroutine.wrap(MYGR_fake_script)()
-local function JBQQILR_fake_script() -- Poisonx.TextButton_5.LocalScript 
+coroutine.wrap(RGHBFYA_fake_script)()
+local function TCXLKZI_fake_script() -- Poisonx.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Workspace.CurrentCamera.FieldOfView  = script.Parent.Parent.ServerMessage1.Text
 	end)
 end
-coroutine.wrap(JBQQILR_fake_script)()
-local function KMSQMS_fake_script() -- Poisonx.TextButton_6.LocalScript 
+coroutine.wrap(TCXLKZI_fake_script)()
+local function WADZ_fake_script() -- Poisonx.TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2121,16 +2229,16 @@ local function KMSQMS_fake_script() -- Poisonx.TextButton_6.LocalScript
 		plr.Character.Humanoid.JumpPower = script.Parent.Parent.ServerMessage3.Text
 	end)
 end
-coroutine.wrap(KMSQMS_fake_script)()
-local function KWNF_fake_script() -- Poisonx.TextButton_7.LocalScript 
+coroutine.wrap(WADZ_fake_script)()
+local function KGEV_fake_script() -- Poisonx.TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.ServerMessage2.Text
 	end)
 end
-coroutine.wrap(KWNF_fake_script)()
-local function GZTFFUV_fake_script() -- Poisonx.TextButton_8.LocalScript 
+coroutine.wrap(KGEV_fake_script)()
+local function UCEJPJ_fake_script() -- Poisonx.TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2144,16 +2252,16 @@ local function GZTFFUV_fake_script() -- Poisonx.TextButton_8.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = true
 	end)
 end
-coroutine.wrap(GZTFFUV_fake_script)()
-local function DWXQFAT_fake_script() -- Poisonx.USERNAME.LocalScript 
+coroutine.wrap(UCEJPJ_fake_script)()
+local function PMFUA_fake_script() -- Poisonx.USERNAME.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.USERNAME)
 
 	local currentPlayer = game.Players.LocalPlayer.Name
 	
 	script.Parent.Text = currentPlayer
 end
-coroutine.wrap(DWXQFAT_fake_script)()
-local function TJIRB_fake_script() -- Poisonx.TextButton_9.LocalScript 
+coroutine.wrap(PMFUA_fake_script)()
+local function BZOJPX_fake_script() -- Poisonx.TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2167,8 +2275,8 @@ local function TJIRB_fake_script() -- Poisonx.TextButton_9.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(TJIRB_fake_script)()
-local function ZGVYZNN_fake_script() -- Poisonx.TextButton_10.LocalScript 
+coroutine.wrap(BZOJPX_fake_script)()
+local function ZNQT_fake_script() -- Poisonx.TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2182,8 +2290,8 @@ local function ZGVYZNN_fake_script() -- Poisonx.TextButton_10.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(ZGVYZNN_fake_script)()
-local function SIVZ_fake_script() -- Poisonx.TextButton_11.LocalScript 
+coroutine.wrap(ZNQT_fake_script)()
+local function SMOX_fake_script() -- Poisonx.TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2197,256 +2305,320 @@ local function SIVZ_fake_script() -- Poisonx.TextButton_11.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(SIVZ_fake_script)()
-local function VELZMBK_fake_script() -- Poisonx.TextButton_13.LocalScript 
+coroutine.wrap(SMOX_fake_script)()
+local function GALD_fake_script() -- Poisonx.TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.TextBox.Text = ""
 	end)
 end
-coroutine.wrap(VELZMBK_fake_script)()
-local function REPSRV_fake_script() -- Poisonx.TextButton_15.LocalScript 
+coroutine.wrap(GALD_fake_script)()
+local function NATONKR_fake_script() -- Poisonx.TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/The%20Angel.lua'))()
 	end)
 end
-coroutine.wrap(REPSRV_fake_script)()
-local function UCNH_fake_script() -- Poisonx.TextButton_16.LocalScript 
+coroutine.wrap(NATONKR_fake_script)()
+local function UVMGMV_fake_script() -- Poisonx.TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/SCP-106.lua'))()
 	end)
 end
-coroutine.wrap(UCNH_fake_script)()
-local function TSUPVGJ_fake_script() -- Poisonx.TextButton_17.LocalScript 
+coroutine.wrap(UVMGMV_fake_script)()
+local function HWMEC_fake_script() -- Poisonx.TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/The%20Warden.lua'))()
 	end)
 end
-coroutine.wrap(TSUPVGJ_fake_script)()
-local function DPLJ_fake_script() -- Poisonx.TextButton_18.LocalScript 
+coroutine.wrap(HWMEC_fake_script)()
+local function NJLHQT_fake_script() -- Poisonx.TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/flamethrower'))()
 	end)
 end
-coroutine.wrap(DPLJ_fake_script)()
-local function TFBS_fake_script() -- Poisonx.TextButton_19.LocalScript 
+coroutine.wrap(NJLHQT_fake_script)()
+local function OGWD_fake_script() -- Poisonx.TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Mask.lua'))()
 	end)
 end
-coroutine.wrap(TFBS_fake_script)()
-local function RXRAQ_fake_script() -- Poisonx.TextButton_20.LocalScript 
+coroutine.wrap(OGWD_fake_script)()
+local function LTQKKWB_fake_script() -- Poisonx.TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/The%20Sun%20Is%20A%20Deadly%20Laser.lua'))()
 	end)
 end
-coroutine.wrap(RXRAQ_fake_script)()
-local function HXPCWUG_fake_script() -- Poisonx.TextButton_21.LocalScript 
+coroutine.wrap(LTQKKWB_fake_script)()
+local function AMKLT_fake_script() -- Poisonx.TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/itsthecops'))()
 	end)
 end
-coroutine.wrap(HXPCWUG_fake_script)()
-local function KBOLPAH_fake_script() -- Poisonx.TextButton_22.LocalScript 
+coroutine.wrap(AMKLT_fake_script)()
+local function YZQT_fake_script() -- Poisonx.TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/grabknife'))()
 	end)
 end
-coroutine.wrap(KBOLPAH_fake_script)()
-local function YEMOZO_fake_script() -- Poisonx.TextButton_23.LocalScript 
+coroutine.wrap(YZQT_fake_script)()
+local function XDCVW_fake_script() -- Poisonx.TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Lost%20Hope.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Dragonian%20Pyramus.lua'))()
 	end)
 end
-coroutine.wrap(YEMOZO_fake_script)()
-local function MLEG_fake_script() -- Poisonx.TextButton_24.LocalScript 
+coroutine.wrap(XDCVW_fake_script)()
+local function EMTQFLK_fake_script() -- Poisonx.TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Nebula%20Star%20Glitcher.lua'))()
 	end)
 end
-coroutine.wrap(MLEG_fake_script)()
-local function PPTK_fake_script() -- Poisonx.TextButton_25.LocalScript 
+coroutine.wrap(EMTQFLK_fake_script)()
+local function SPOLH_fake_script() -- Poisonx.TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/AdminPanel/main/ramd'))()
 	end)
 end
-coroutine.wrap(PPTK_fake_script)()
-local function NVWJTN_fake_script() -- Poisonx.TextButton_26.LocalScript 
+coroutine.wrap(SPOLH_fake_script)()
+local function POMQE_fake_script() -- Poisonx.TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_26)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Hidden%20Blades.lua'))()
 	end)
 end
-coroutine.wrap(NVWJTN_fake_script)()
-local function RIXVS_fake_script() -- Poisonx.TextButton_27.LocalScript 
+coroutine.wrap(POMQE_fake_script)()
+local function GVXM_fake_script() -- Poisonx.TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Lightning%20Cannon.lua'))()
 	end)
 end
-coroutine.wrap(RIXVS_fake_script)()
-local function CDYUYAC_fake_script() -- Poisonx.TextButton_28.LocalScript 
+coroutine.wrap(GVXM_fake_script)()
+local function QHRRTRT_fake_script() -- Poisonx.TextButton_28.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Eyo%20Zen.lua'))()
 	end)
 end
-coroutine.wrap(CDYUYAC_fake_script)()
-local function PZVQDPG_fake_script() -- Poisonx.TextButton_29.LocalScript 
+coroutine.wrap(QHRRTRT_fake_script)()
+local function SQKJ_fake_script() -- Poisonx.TextButton_29.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_29)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Demonic%20Sword.lua'))()
 	end)
 end
-coroutine.wrap(PZVQDPG_fake_script)()
-local function BVMT_fake_script() -- Poisonx.TextButton_30.LocalScript 
+coroutine.wrap(SQKJ_fake_script)()
+local function OKLHQLQ_fake_script() -- Poisonx.TextButton_30.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_30)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Omni%20God.lua'))()
 	end)
 end
-coroutine.wrap(BVMT_fake_script)()
-local function FURV_fake_script() -- Poisonx.TextButton_31.LocalScript 
+coroutine.wrap(OKLHQLQ_fake_script)()
+local function EMWVOJU_fake_script() -- Poisonx.TextButton_31.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_31)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/FEZen.lua'))()
 	end)
 end
-coroutine.wrap(FURV_fake_script)()
-local function FFTUL_fake_script() -- Poisonx.TextButton_32.LocalScript 
+coroutine.wrap(EMWVOJU_fake_script)()
+local function VQLQ_fake_script() -- Poisonx.TextButton_32.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_32)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/God%20Eater.lua'))()
 	end)
 end
-coroutine.wrap(FFTUL_fake_script)()
-local function VOQE_fake_script() -- Poisonx.TextButton_33.LocalScript 
+coroutine.wrap(VQLQ_fake_script)()
+local function VCEK_fake_script() -- Poisonx.TextButton_33.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_33)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/cadacus.lua'))()
 	end)
 end
-coroutine.wrap(VOQE_fake_script)()
-local function PKZQVT_fake_script() -- Poisonx.TextButton_34.LocalScript 
+coroutine.wrap(VCEK_fake_script)()
+local function BSON_fake_script() -- Poisonx.TextButton_34.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_34)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Incension%20Reborn.lua'))()
 	end)
 end
-coroutine.wrap(PKZQVT_fake_script)()
-local function AWHZMZ_fake_script() -- Poisonx.TextButton_35.LocalScript 
+coroutine.wrap(BSON_fake_script)()
+local function DFLB_fake_script() -- Poisonx.TextButton_35.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_35)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Golden%20Claws.lua'))()
 	end)
 end
-coroutine.wrap(AWHZMZ_fake_script)()
-local function WPVIY_fake_script() -- Poisonx.TextButton_36.LocalScript 
+coroutine.wrap(DFLB_fake_script)()
+local function SEMTNE_fake_script() -- Poisonx.TextButton_36.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_36)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Free%20Star%20Glitcher.lua'))()
 	end)
 end
-coroutine.wrap(WPVIY_fake_script)()
-local function SPXA_fake_script() -- Poisonx.TextButton_37.LocalScript 
+coroutine.wrap(SEMTNE_fake_script)()
+local function AWWN_fake_script() -- Poisonx.TextButton_37.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_37)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pharoh.lua'))()
+		loadstring(game:HttpGet('https://github.com/Ne0n2680/x/blob/main/whitesword'))()
 	end)
 end
-coroutine.wrap(SPXA_fake_script)()
-local function JWZRGMZ_fake_script() -- Poisonx.TextButton_38.LocalScript 
+coroutine.wrap(AWWN_fake_script)()
+local function UQGKNUV_fake_script() -- Poisonx.TextButton_38.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_38)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Reaper.lua'))()
 	end)
 end
-coroutine.wrap(JWZRGMZ_fake_script)()
-local function GPXUSE_fake_script() -- Poisonx.TextButton_39.LocalScript 
+coroutine.wrap(UQGKNUV_fake_script)()
+local function RBTNSME_fake_script() -- Poisonx.TextButton_39.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_39)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Echo%20Banisher.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/echo'))()
 	end)
 end
-coroutine.wrap(GPXUSE_fake_script)()
-local function RIHA_fake_script() -- Poisonx.TextButton_40.LocalScript 
+coroutine.wrap(RBTNSME_fake_script)()
+local function HYWNFP_fake_script() -- Poisonx.TextButton_40.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_40)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/18JTx6kF'))()
 	end)
 end
-coroutine.wrap(RIHA_fake_script)()
-local function DBXW_fake_script() -- Poisonx.TextButton_41.LocalScript 
+coroutine.wrap(HYWNFP_fake_script)()
+local function HWEWWL_fake_script() -- Poisonx.TextButton_41.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_41)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Master%20Of%20Elements.lua'))()
 	end)
 end
-coroutine.wrap(DBXW_fake_script)()
-local function TRXPGCG_fake_script() -- Poisonx.TextButton_42.LocalScript 
+coroutine.wrap(HWEWWL_fake_script)()
+local function XAHDRG_fake_script() -- Poisonx.TextButton_42.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_42)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/John%20Doe.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/Johndoe'))()
 	end)
 end
-coroutine.wrap(TRXPGCG_fake_script)()
-local function XZQYNP_fake_script() -- Poisonx.TextButton_43.LocalScript 
+coroutine.wrap(XAHDRG_fake_script)()
+local function PCPV_fake_script() -- Poisonx.TextButton_43.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_43)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Drone.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/drone'))()
 	end)
 end
-coroutine.wrap(XZQYNP_fake_script)()
-local function NNLJSLQ_fake_script() -- Poisonx.TextButton_44.LocalScript 
+coroutine.wrap(PCPV_fake_script)()
+local function ORDTAV_fake_script() -- Poisonx.TextButton_44.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.TextButton_44)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Magic.lua'))()
 	end)
 end
-coroutine.wrap(NNLJSLQ_fake_script)()
-local function DWBPW_fake_script() -- Poisonx.Cerberus.LocalScript 
+coroutine.wrap(ORDTAV_fake_script)()
+local function ACKAEQM_fake_script() -- Poisonx.TextButton_45.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_45)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/minigun'))()
+	end)
+end
+coroutine.wrap(ACKAEQM_fake_script)()
+local function QQJKLAN_fake_script() -- Poisonx.TextButton_46.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_46)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/sniper'))()
+	end)
+end
+coroutine.wrap(QQJKLAN_fake_script)()
+local function WJZIAAK_fake_script() -- Poisonx.TextButton_47.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_47)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/killer'))()
+	end)
+end
+coroutine.wrap(WJZIAAK_fake_script)()
+local function VUGC_fake_script() -- Poisonx.TextButton_48.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_48)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Sharpshooter.lua'))()
+	end)
+end
+coroutine.wrap(VUGC_fake_script)()
+local function YKQR_fake_script() -- Poisonx.TextButton_49.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_49)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Evolution-Hub/main/Corrupted%20Overseer.lua'))()
+	end)
+end
+coroutine.wrap(YKQR_fake_script)()
+local function PRGWZ_fake_script() -- Poisonx.TextButton_50.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_50)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/noob%20swither'))()
+	end)
+end
+coroutine.wrap(PRGWZ_fake_script)()
+local function QQGVZSS_fake_script() -- Poisonx.TextButton_51.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_51)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Big%20Daddy.lua'))()
+	end)
+end
+coroutine.wrap(QQGVZSS_fake_script)()
+local function MZFSWRQ_fake_script() -- Poisonx.TextButton_52.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_52)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/knife%20girl'))()
+	end)
+end
+coroutine.wrap(MZFSWRQ_fake_script)()
+local function DLNEAI_fake_script() -- Poisonx.Cerberus.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Cerberus)
 
 	
@@ -2485,9 +2657,9 @@ local function DWBPW_fake_script() -- Poisonx.Cerberus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DWBPW_fake_script)()
-local function MXCJ_fake_script() -- Poisonx.TextButton_45.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_45)
+coroutine.wrap(DLNEAI_fake_script)()
+local function TVVD_fake_script() -- Poisonx.TextButton_53.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_53)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomePage.Visible = false
@@ -2500,9 +2672,9 @@ local function MXCJ_fake_script() -- Poisonx.TextButton_45.LocalScript
 		script.Parent.Parent.SettingsPage.Visible = false
 	end)
 end
-coroutine.wrap(MXCJ_fake_script)()
-local function INJKFV_fake_script() -- Poisonx.TextButton_46.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_46)
+coroutine.wrap(TVVD_fake_script)()
+local function XTFEPM_fake_script() -- Poisonx.TextButton_54.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_54)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		while true do
@@ -2513,60 +2685,60 @@ local function INJKFV_fake_script() -- Poisonx.TextButton_46.LocalScript
 		end
 	end)
 end
-coroutine.wrap(INJKFV_fake_script)()
-local function QVUAGSJ_fake_script() -- Poisonx.TextButton_47.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_47)
+coroutine.wrap(XTFEPM_fake_script)()
+local function GIFFDEF_fake_script() -- Poisonx.TextButton_55.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_55)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local A_1 = "You've been warned, all of you." local A_2 = "All" 
 		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
 	end)
 end
-coroutine.wrap(QVUAGSJ_fake_script)()
-local function LBBB_fake_script() -- Poisonx.TextButton_48.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_48)
+coroutine.wrap(GIFFDEF_fake_script)()
+local function VJOOOB_fake_script() -- Poisonx.TextButton_56.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_56)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local A_1 = "Hello, everyone!" local A_2 = "All" 
 		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
 	end)
 end
-coroutine.wrap(LBBB_fake_script)()
-local function WWIX_fake_script() -- Poisonx.TextButton_49.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_49)
+coroutine.wrap(VJOOOB_fake_script)()
+local function ZKCWS_fake_script() -- Poisonx.TextButton_57.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_57)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("all users // rank -- set = admin")
 	end)
 end
-coroutine.wrap(WWIX_fake_script)()
-local function UTGTMQJ_fake_script() -- Poisonx.TextButton_50.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_50)
+coroutine.wrap(ZKCWS_fake_script)()
+local function KYAAE_fake_script() -- Poisonx.TextButton_58.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_58)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("all users // rank -- set = admin")
 	end)
 end
-coroutine.wrap(UTGTMQJ_fake_script)()
-local function QBKBL_fake_script() -- Poisonx.TextButton_51.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_51)
+coroutine.wrap(KYAAE_fake_script)()
+local function YPGB_fake_script() -- Poisonx.TextButton_59.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_59)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		print("all users // rank -- set = guest")
 	end)
 end
-coroutine.wrap(QBKBL_fake_script)()
-local function GHIFF_fake_script() -- Poisonx.TextButton_52.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_52)
+coroutine.wrap(YPGB_fake_script)()
+local function TFPP_fake_script() -- Poisonx.TextButton_60.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_60)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local A_1 = "Join ---Cerberus--- today!" local A_2 = "All" 
 		local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
 	end)
 end
-coroutine.wrap(GHIFF_fake_script)()
-local function PPUGGOF_fake_script() -- Poisonx.TextButton_53.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_53)
+coroutine.wrap(TFPP_fake_script)()
+local function RUDX_fake_script() -- Poisonx.TextButton_61.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_61)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		wait(1)
@@ -2652,9 +2824,9 @@ local function PPUGGOF_fake_script() -- Poisonx.TextButton_53.LocalScript
 		game:GetService("Debris"):AddItem(DeathStar,1)
 	end)
 end
-coroutine.wrap(PPUGGOF_fake_script)()
-local function IKAF_fake_script() -- Poisonx.TextButton_54.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_54)
+coroutine.wrap(RUDX_fake_script)()
+local function PRRU_fake_script() -- Poisonx.TextButton_62.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_62)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
@@ -2673,9 +2845,9 @@ local function IKAF_fake_script() -- Poisonx.TextButton_54.LocalScript
 		s:Play()
 	end)
 end
-coroutine.wrap(IKAF_fake_script)()
-local function EDYLWT_fake_script() -- Poisonx.TextButton_55.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_55)
+coroutine.wrap(PRRU_fake_script)()
+local function WCEME_fake_script() -- Poisonx.TextButton_63.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_63)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in next,workspace:children''do
@@ -2698,9 +2870,9 @@ local function EDYLWT_fake_script() -- Poisonx.TextButton_55.LocalScript
 			end;end;
 	end)
 end
-coroutine.wrap(EDYLWT_fake_script)()
-local function VLQO_fake_script() -- Poisonx.TextButton_56.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_56)
+coroutine.wrap(WCEME_fake_script)()
+local function FNEM_fake_script() -- Poisonx.TextButton_64.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_64)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.TimeOfDay=1000000;
@@ -2715,9 +2887,9 @@ local function VLQO_fake_script() -- Poisonx.TextButton_56.LocalScript
 	end)
 	
 end
-coroutine.wrap(VLQO_fake_script)()
-local function QJQJ_fake_script() -- Poisonx.TextButton_57.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_57)
+coroutine.wrap(FNEM_fake_script)()
+local function TDEPJPK_fake_script() -- Poisonx.TextButton_65.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_65)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		function exPro(root)
@@ -2758,17 +2930,17 @@ local function QJQJ_fake_script() -- Poisonx.TextButton_57.LocalScript
 		asdf(game.Workspace)
 	end)
 end
-coroutine.wrap(QJQJ_fake_script)()
-local function TVHKKK_fake_script() -- Poisonx.TextButton_58.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_58)
+coroutine.wrap(TDEPJPK_fake_script)()
+local function HQREZBW_fake_script() -- Poisonx.TextButton_66.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_66)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ne0n2680/Roblox-utg/main/chatremover"))()
 	end)
 end
-coroutine.wrap(TVHKKK_fake_script)()
-local function SPCRL_fake_script() -- Poisonx.TextButton_59.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_59)
+coroutine.wrap(HQREZBW_fake_script)()
+local function WXGNABH_fake_script() -- Poisonx.TextButton_67.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_67)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in next,workspace:children''do
@@ -2780,9 +2952,9 @@ local function SPCRL_fake_script() -- Poisonx.TextButton_59.LocalScript
 			end;end;
 	end)
 end
-coroutine.wrap(SPCRL_fake_script)()
-local function BKZSQUL_fake_script() -- Poisonx.TextButton_60.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_60)
+coroutine.wrap(WXGNABH_fake_script)()
+local function XOYETEY_fake_script() -- Poisonx.TextButton_68.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_68)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.TimeOfDay=0;
@@ -2795,9 +2967,9 @@ local function BKZSQUL_fake_script() -- Poisonx.TextButton_60.LocalScript
 		local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
 	end)
 end
-coroutine.wrap(BKZSQUL_fake_script)()
-local function OOBSLC_fake_script() -- Poisonx.TextButton_61.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_61)
+coroutine.wrap(XOYETEY_fake_script)()
+local function EQTND_fake_script() -- Poisonx.TextButton_69.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_69)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do
@@ -2816,42 +2988,42 @@ local function OOBSLC_fake_script() -- Poisonx.TextButton_61.LocalScript
 		s:Play()
 	end)
 end
-coroutine.wrap(OOBSLC_fake_script)()
-local function VAMGZ_fake_script() -- Poisonx.TextButton_62.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_62)
+coroutine.wrap(EQTND_fake_script)()
+local function ZWGROTS_fake_script() -- Poisonx.TextButton_70.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_70)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 	end)
 end
-coroutine.wrap(VAMGZ_fake_script)()
-local function YVCNZJC_fake_script() -- Poisonx.TextButton_63.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_63)
+coroutine.wrap(ZWGROTS_fake_script)()
+local function CTTZWOE_fake_script() -- Poisonx.TextButton_71.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_71)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(YVCNZJC_fake_script)()
-local function CLRI_fake_script() -- Poisonx.TextButton_64.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_64)
+coroutine.wrap(CTTZWOE_fake_script)()
+local function LTWQ_fake_script() -- Poisonx.TextButton_72.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_72)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/tZDDkAK3'))()
 	end)
 end
-coroutine.wrap(CLRI_fake_script)()
-local function ADHTPLB_fake_script() -- Poisonx.TextButton_72.LocalScript 
-	local script = Instance.new('LocalScript', Poisonx.TextButton_72)
+coroutine.wrap(LTWQ_fake_script)()
+local function GBWHOQ_fake_script() -- Poisonx.TextButton_80.LocalScript 
+	local script = Instance.new('LocalScript', Poisonx.TextButton_80)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/18YmULGF'))()
 	end)
 end
-coroutine.wrap(ADHTPLB_fake_script)()
-local function TLKZ_fake_script() -- Poisonx.Poisonx.LocalScript 
+coroutine.wrap(GBWHOQ_fake_script)()
+local function NFQEVDW_fake_script() -- Poisonx.Poisonx.LocalScript 
 	local script = Instance.new('LocalScript', Poisonx.Poisonx)
 
 	Poisonx.Parent = game.CoreGui
 end
-coroutine.wrap(TLKZ_fake_script)()
+coroutine.wrap(NFQEVDW_fake_script)()
