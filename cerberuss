@@ -1,3 +1,4 @@
+
 -- Gui to Lua
 -- Version: 3.2
 
@@ -2494,7 +2495,7 @@ local function AWWN_fake_script() -- Poisonx.TextButton_37.LocalScript
 	local script = Instance.new('LocalScript', Poisonx.TextButton_37)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://github.com/Ne0n2680/x/blob/main/whitesword'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/whitesword'))()
 	end)
 end
 coroutine.wrap(AWWN_fake_script)()
